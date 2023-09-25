@@ -20,5 +20,5 @@ public class HelloController {
     public void hello(HttpServletResponse resp) throws IOException {
         resp.getWriter().println("<h1 style=\"color:blue\">Hello, World!</h1>");
     }
-    
+
 }
